@@ -10,7 +10,6 @@ const Calculator = () => {
       setInput('');
     } else if (value === '=') {
       try {
-        // Evaluate the input safely
         const result = new Function('return ' + input)();
         setInput(result.toString());
       } catch {
