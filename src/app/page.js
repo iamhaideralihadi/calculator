@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 
-const Calculator = () => {
+const Home = () => {
   const [input, setInput] = useState('');
 
   const handleButtonClick = (value) => {
@@ -48,4 +48,4 @@ const Calculator = () => {
   );
 };
 
-export default Calculator;
+export default Home;
